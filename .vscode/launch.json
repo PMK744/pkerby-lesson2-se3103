@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "controller.App",
+      "projectName": "pkerby-lesson2-se3103_e578f665"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "CoinDispenserTester",
+      "request": "launch",
+      "mainClass": "test.CoinDispenserTester",
+      "vmArgs": "-ea",
+      "projectName": "pkerby-lesson2-se3103_e578f665"
+    }
+  ]
+}
