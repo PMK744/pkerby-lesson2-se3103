@@ -14,7 +14,7 @@ public class CoinDispenser {
   public final int maxDimes;
   public final int maxQuarters;
 
-  public int selectedSlotIndex = 1;
+  public int selectedSlotIndex = 0;
 
   public CoinDispenser(int maxNickels, int maxDimes, int maxQuarters) {
     this.maxNickels = maxNickels;
